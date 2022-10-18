@@ -1,5 +1,17 @@
+.container-fluid {
+    text-align: center;
+    height: 50px;
+    background-color: brown;
+    position: fixed;
+    color: white;
+}
+
 .container {
     background-color: rgba(0, 0, 0, 0.672);
+}
+
+.col-0 {
+    height: 50px;
 }
 
 .col-1 {
@@ -32,4 +44,14 @@
     border: darkblue;
     border-style: solid;
     background-color: white;
+}
+
+.col-4 {
+    text-align: center;
+    color: white;
+}
+
+#Image {
+    height: 500px;
+    width: 500px;
 }
